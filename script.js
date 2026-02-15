@@ -79,11 +79,11 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar")
   if (window.scrollY > 100) {
-    navbar.style.background = "rgba(255, 255, 255, 0.98)"
-    navbar.style.boxShadow = "0 2px 20px rgba(210, 105, 30, 0.15)"
+    navbar.style.background = "rgba(15, 23, 42, 0.98)"
+    navbar.style.boxShadow = "0 2px 20px rgba(14, 165, 233, 0.2)"
   } else {
-    navbar.style.background = "rgba(255, 255, 255, 0.95)"
-    navbar.style.boxShadow = "0 2px 10px rgba(210, 105, 30, 0.1)"
+    navbar.style.background = "rgba(15, 23, 42, 0.95)"
+    navbar.style.boxShadow = "0 2px 10px rgba(14, 165, 233, 0.15)"
   }
 })
 
