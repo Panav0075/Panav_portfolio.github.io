@@ -712,6 +712,7 @@ body {
 
 .project-impact {
   margin-top: 2rem;
+  margin: 2rem 0;
   padding: 1.5rem;
   background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   border-radius: 10px;
@@ -731,6 +732,39 @@ body {
 .metric {
   text-align: center;
   color: #ffffff;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+.metric-card {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    border-color: #0ea5e9;
+}
+
+.metric-card h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0ea5e9;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card p {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    margin: 0;
 }
 
 .metric-value {
