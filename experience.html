@@ -8,142 +8,69 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">Panav Aggarwal</a>
-            </div>
+            <div class="nav-logo"><a href="index.html">Panav Aggarwal</a></div>
             <div class="nav-menu" id="nav-menu">
                 <a href="index.html" class="nav-link">About</a>
                 <a href="experience.html" class="nav-link active">Experience</a>
                 <a href="projects.html" class="nav-link">Projects</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </div>
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <div class="hamburger" id="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header"><div class="container"><h1>Experience</h1><p>Professional software engineering and AI experience</p></div></section>
+    <section class="projects-detail">
         <div class="container">
-            <h1>Professional Experience</h1>
-            <p>My journey in software development and AI/ML engineering</p>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section class="experience-detail">
-        <div class="container">
-            <div class="experience-timeline">
-                
-                <!-- Experience 1 -->
-                <div class="experience-item">
-                    <div class="experience-date">
-                        <span class="date-badge">Jun 2025 &ndash; Aug 2025</span>
+            <div class="projects-grid">
+                <div class="project-card experience-item">
+                    <div class="project-header">
+                        <h3><i class="fas fa-robot"></i> Software Developer Intern &mdash; Boons.io</h3>
+                        <span class="project-type">Jun 2025 &ndash; Aug 2025 | USA</span>
                     </div>
-                    <div class="experience-content">
-                        <div class="experience-header">
-                            <h3><i class="fas fa-laptop-code"></i> Software Development Intern</h3>
-                            <h4>Boons.io</h4>
-                            <p class="location"><i class="fas fa-map-marker-alt"></i> Remote, USA</p>
-                        </div>
-                        <div class="experience-description">
-                            <p>Designed and built scalable backend systems, RESTful APIs, and automated data workflows to support high-throughput multi-channel data ingestion at Boons.io.</p>
-                            
-                            <h5>Key Achievements:</h5>
-                            <ul class="achievement-list">
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>RESTful APIs &amp; Microservices:</strong> Designed RESTful APIs and microservices architecture supporting high-throughput multi-channel data ingestion, reducing processing time by 25% and improving system scalability.
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>Automated ETL Workflows:</strong> Automated ETL workflows across AWS services, lowering manual operational overhead by 60% and enabling real-time data processing.
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>Agile Collaboration:</strong> Collaborated in Agile/Scrum environment with sprint planning, code reviews, and daily standups to deliver features on time.
-                                </li>
-                            </ul>
-                            
-                            <div class="skills-used">
-                                <h5>Technologies &amp; Skills Used:</h5>
-                                <div class="skill-tags">
-                                    <span class="skill-tag">Python</span>
-                                    <span class="skill-tag">REST APIs</span>
-                                    <span class="skill-tag">Microservices</span>
-                                    <span class="skill-tag">AWS (EC2, Lambda, S3)</span>
-                                    <span class="skill-tag">ETL Pipelines</span>
-                                    <span class="skill-tag">Docker</span>
-                                    <span class="skill-tag">Agile/Scrum</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="project-content">
+                        <p class="project-summary">Built an AI-powered restaurant menu automation platform that replaced a manual onboarding workflow.</p>
+                        <div class="project-details"><ul class="project-features">
+                                <li><i class="fas fa-check-circle"></i> Developed an AI-powered restaurant menu automation platform, automating menu ingestion, processing, validation, categorization, and publishing.</li>
+                                <li><i class="fas fa-check-circle"></i> Built LLM-driven extraction and classification workflows to convert restaurant menu content into structured items, descriptions, categories, pricing, and related attributes.</li>
+                                <li><i class="fas fa-check-circle"></i> Integrated n8n workflows with Node.js/Python services and REST APIs for multi-step data processing, AI extraction, validation, transformation, and application updates.</li>
+                                <li><i class="fas fa-check-circle"></i> Implemented AI-assisted validation, error handling, retry logic, and failure recovery for incomplete, invalid, or ambiguous menu data.</li>
+                                <li><i class="fas fa-check-circle"></i> Developed API-based backend integrations connecting AI processing components, workflow automation services, databases, and customer-facing applications.</li>
+                                <li><i class="fas fa-check-circle"></i> Built AI chatbot and SMS-based workflows for collecting information, sending processing updates, and generating contextual customer responses.</li>
+                        </ul></div>
+                        <div class="technologies-used"><h4>Skills &amp; Technologies</h4><div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">Node.js</span><span class="tech-tag">n8n</span><span class="tech-tag">FastAPI</span><span class="tech-tag">REST APIs</span><span class="tech-tag">LLMs</span><span class="tech-tag">Generative AI</span><span class="tech-tag">Prompt Engineering</span><span class="tech-tag">JSON</span><span class="tech-tag">API Integration</span><span class="tech-tag">Asynchronous Processing</span><span class="tech-tag">SMS Integration</span><span class="tech-tag">Git</span></div></div>
                     </div>
                 </div>
-
-                <!-- Experience 2 -->
-                <div class="experience-item">
-                    <div class="experience-date">
-                        <span class="date-badge">Jan 2022 &ndash; Jul 2024</span>
+                <div class="project-card experience-item">
+                    <div class="project-header">
+                        <h3><i class="fas fa-laptop-code"></i> Software Engineer &mdash; Technaitra IT Solutions</h3>
+                        <span class="project-type">Jan 2022 &ndash; Jul 2024 | India</span>
                     </div>
-                    <div class="experience-content">
-                        <div class="experience-header">
-                            <h3><i class="fas fa-briefcase"></i> Software Engineer</h3>
-                            <h4>Technaitra IT Solutions</h4>
-                            <p class="location"><i class="fas fa-map-marker-alt"></i> Patiala, India</p>
-                        </div>
-                        <div class="experience-description">
-                            <p>Specialized in functional, regression, and performance testing for web and mobile applications, ensuring high-quality software delivery and strengthening release stability.</p>
-                            
-                            <h5>Key Achievements:</h5>
-                            <ul class="achievement-list">
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>Comprehensive Testing:</strong> Performed functional, regression, and performance testing on 15+ applications, identifying 75+ critical defects with a 98% fix rate.
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>CI/CD Pipeline Optimization:</strong> Improved CI/CD pipeline test reliability by optimizing scripts and reducing execution time by 30%.
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <strong>Agile Team Collaboration:</strong> Collaborated in Agile teams to strengthen release stability and quality across multiple product releases.
-                                </li>
-                            </ul>
-                            
-                            <div class="skills-used">
-                                <h5>Technologies &amp; Skills Used:</h5>
-                                <div class="skill-tags">
-                                    <span class="skill-tag">Functional Testing</span>
-                                    <span class="skill-tag">Regression Testing</span>
-                                    <span class="skill-tag">Performance Testing</span>
-                                    <span class="skill-tag">CI/CD Pipelines</span>
-                                    <span class="skill-tag">Bug Tracking</span>
-                                    <span class="skill-tag">Agile/Scrum</span>
-                                    <span class="skill-tag">Test Automation</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="project-content">
+                        <p class="project-summary">Developed, debugged, and maintained web applications and enterprise software across frontend, backend, and data layers.</p>
+                        <div class="project-details"><ul class="project-features">
+                                <li><i class="fas fa-check-circle"></i> Contributed to the development, debugging, maintenance, and enhancement of web applications and enterprise software across frontend behavior, backend workflows, APIs, and integrations.</li>
+                                <li><i class="fas fa-check-circle"></i> Investigated and resolved 75+ software defects through issue reproduction, application/data-flow analysis, root-cause identification, fix support, and validation across integrated components.</li>
+                                <li><i class="fas fa-check-circle"></i> Worked with REST APIs and backend services, troubleshooting request/response flows, authentication, data validation, error handling, and application integration issues.</li>
+                                <li><i class="fas fa-check-circle"></i> Performed root-cause analysis and systematic debugging for functional, data, calculation, integration, and workflow issues across application components.</li>
+                                <li><i class="fas fa-check-circle"></i> Used SQL/database validation, API testing, logs, browser developer tools, and debugging techniques to trace issues across frontend, backend, and data layers.</li>
+                                <li><i class="fas fa-check-circle"></i> Collaborated throughout the SDLC and Agile development process on requirements, defect tracking, regression validation, release readiness, and software-quality improvements.</li>
+                        </ul></div>
+                        <div class="technologies-used"><h4>Skills &amp; Technologies</h4><div class="tech-tags"><span class="tech-tag">Software Development</span><span class="tech-tag">Debugging</span><span class="tech-tag">REST APIs</span><span class="tech-tag">API Integration</span><span class="tech-tag">Backend Development</span><span class="tech-tag">SQL</span><span class="tech-tag">Root Cause Analysis</span><span class="tech-tag">SDLC</span><span class="tech-tag">Git</span><span class="tech-tag">Postman</span><span class="tech-tag">Agile</span><span class="tech-tag">Jira</span><span class="tech-tag">Integration Testing</span><span class="tech-tag">System Testing</span><span class="tech-tag">Database Testing</span><span class="tech-tag">Troubleshooting</span></div></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Panav Aggarwal. All rights reserved.</p>
             <p>Built with passion and modern web technologies</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
